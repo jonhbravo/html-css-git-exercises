@@ -1,19 +1,157 @@
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
-
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+html {
+    font-size: 12px;
 }
 
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
- */
+body {
+    font-family: "roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    display: block;
+    line-height: 1;
+    margin: 0;
+}
 
 
+
+header h1  {
+    margin: 0;
+    text-align: start;
+}
+
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+
+nav > .contenedor {
+    height: 4.375rem;
+}
+@media (min-width: 48rem) {
+.content {
+    width: 46rem;
+}
+}
+
+nav ul li a {
+    color: #838994;
+    text-decoration: none; text-align: center;
+    
+}
+
+
+a.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: initial;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+header ul {
+    display: none;
+}
+
+header span {
+    display: none;
+}
+
+
+header img {
+    width: 26px;
+    margin: 10;
+    image-orientation: flip;
+}
+
+
+.foto {
+    background-image: url("../img/first-background.jpg");
+    min-height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center bottom ;
+}
+
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+
+.section2 h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    vertical-align: inherit;
+}
+
+.section2 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+.foto3 {
+    width: 8em;
+    height: 4em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+hr {
+    order: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
+
+footer {
+    padding:5% auto;
+    overflow: auto;
+    text-align: center;
+}
+
+p {
+    margin: 2% auto;
+}
+
+ul li {
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+p.linea {
+    margin-bottom: 5%;
+    color:#838994;
+    font-size: 0.8rem;
+}
